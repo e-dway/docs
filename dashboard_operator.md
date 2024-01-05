@@ -3,6 +3,7 @@ title: Dashboard Operator section
 layout: default
 parent: Dashboard
 nav_order: 3
+has_children: true
 ---
 The Operator section of the menu covers most activities a general operator should be able to see in many situations, covering from Vehicle information to fleet management to rental control. 
 
