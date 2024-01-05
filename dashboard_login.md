@@ -2,6 +2,7 @@
 title: Dashboard Login
 layout: default
 parent: Dashboard
+nav_order: 1
 ---
 You have several authentication modes available. Only administrators for at least one fleet can access the dashboard and operate on the system.
 
