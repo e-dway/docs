@@ -97,6 +97,10 @@ const config: Config = {
               label: 'Api',
               to: 'docs/api/intro',
             },
+            {
+              label: 'Database',
+              to: 'docs/db/intro',
+            }
           ],
         },
         {
