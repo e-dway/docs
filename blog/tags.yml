@@ -1,0 +1,10 @@
+api:
+  label: api
+  permalink: /api
+  description: api
+
+db:
+  label: Database
+  permalink: /db
+  description: database
+
