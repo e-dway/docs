@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'e-dway', // Usually your GitHub org/user name.
+  projectName: 'e-dway', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -119,7 +119,11 @@ const config: Config = {
             {
               label: 'E-dway',
               href: 'https://www.e-dway.com/',
+            },{
+              label: 'FAQ',
+              href: 'https://faq.e-dway.com/',
             }
+            
           ],
         },
         {
