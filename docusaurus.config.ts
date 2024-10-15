@@ -84,6 +84,12 @@ const config: Config = {
           position: 'left',
           label: 'Database',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'boSidebar',
+          position: 'left',
+          label: 'Backoffice',
+        },
         {to: '/blog', label: 'Blog', position: 'right'}
       ],
     },
@@ -100,6 +106,10 @@ const config: Config = {
             {
               label: 'Database',
               to: 'docs/db/intro',
+            },
+            {
+              label: 'Backoffice',
+              to: 'docs/backoffice/intro',
             }
           ],
         },
