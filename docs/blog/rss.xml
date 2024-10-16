@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>e-dway Blog</title>
-        <link>https://your-docusaurus-site.example.com/blog</link>
+        <link>https://your-docusaurus-site.example.com/docs/blog</link>
         <description>e-dway Blog</description>
         <lastBuildDate>Fri, 25 Oct 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>it</language>
         <item>
             <title><![CDATA[First Doc]]></title>
-            <link>https://your-docusaurus-site.example.com/blog/mdx-blog-post</link>
-            <guid>https://your-docusaurus-site.example.com/blog/mdx-blog-post</guid>
+            <link>https://your-docusaurus-site.example.com/docs/blog/mdx-blog-post</link>
+            <guid>https://your-docusaurus-site.example.com/docs/blog/mdx-blog-post</guid>
             <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[first]]></description>
             <content:encoded><![CDATA[<p>first</p>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/blog</id>
+    <id>https://your-docusaurus-site.example.com/docs/blog</id>
     <title>e-dway Blog</title>
     <updated>2024-10-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/docs/blog"/>
     <subtitle>e-dway Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.png</icon>
+    <icon>https://your-docusaurus-site.example.com/docs/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[First Doc]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/mdx-blog-post"/>
+        <id>https://your-docusaurus-site.example.com/docs/blog/mdx-blog-post</id>
+        <link href="https://your-docusaurus-site.example.com/docs/blog/mdx-blog-post"/>
         <updated>2024-10-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[first]]></summary>
         <content type="html"><![CDATA[<p>first</p>
