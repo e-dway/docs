@@ -9,9 +9,7 @@ const config: Config = {
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -35,8 +33,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          path: 'pages', // Cartella dei file
+          routeBasePath: 'pages', // Modifica il percorso nell'URL
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -101,15 +99,15 @@ const config: Config = {
           items: [
             {
               label: 'Api',
-              to: 'docs/api/intro',
+              to: 'pages/api/intro',
             },
             {
               label: 'Database',
-              to: 'docs/db/intro',
+              to: 'pages/db/intro',
             },
             {
               label: 'Backoffice',
-              to: 'docs/backoffice/intro',
+              to: 'pages/backoffice/intro',
             }
           ],
         },
