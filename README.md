@@ -27,6 +27,7 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 npm run build
+rm docs/*
 mv build/* docs/
 
 
