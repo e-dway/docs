@@ -21,6 +21,10 @@ const config: Config = {
       {
         hashed: true, // Permette di aggiungere hash ai file di ricerca per cache-busting.
         language: ["en", "it"], // Specifica le lingue da supportare (puoi inserire 'all' per tutte le lingue).
+        indexDocs: true,        // Abilita l'indicizzazione per la sezione docs.
+        indexBlog: true,        // Abilita l'indicizzazione per il blog.
+        indexPages: true,       // Abilita l'indicizzazione per le pagine personalizzate.
+        docsRouteBasePath: ['/pages'], // Specifica i percorsi base per le sezioni documentali.
       },
     ],
   ],
@@ -143,7 +147,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Edway, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Edway, Inc. v.0.0.1.`,
     },
     prism: {
       theme: prismThemes.github,
