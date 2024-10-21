@@ -15,6 +15,15 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true, // Permette di aggiungere hash ai file di ricerca per cache-busting.
+        language: ["en", "it"], // Specifica le lingue da supportare (puoi inserire 'all' per tutte le lingue).
+      },
+    ],
+  ],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
