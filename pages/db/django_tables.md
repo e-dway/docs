@@ -39,13 +39,3 @@ sidebar_position: 3
      - `session_data`: Dati relativi alla sessione, memorizzati come testo (solitamente serializzati).
      - `expire_date`: Data e ora di scadenza della sessione.
 
-### **`spatial_ref_sys`**
-   - **Descrizione**: Contiene informazioni sui sistemi di riferimento spaziale (SRID), utilizzati nei database per rappresentare coordinate geografiche e proiezioni cartografiche.
-   - **Campi**:
-     - `srid`: Identificatore del sistema di riferimento spaziale (chiave primaria).
-     - `auth_name`: Nome dell'autorità che definisce il sistema di riferimento (es. "EPSG").
-     - `auth_srid`: SRID corrispondente secondo l'autorità.
-     - `srtext`: Definizione testuale del sistema di riferimento spaziale.
-     - `proj4text`: Definizione Proj4 del sistema di riferimento, utilizzata per la proiezione delle coordinate.
-
-Queste tabelle fanno parte della struttura di Django per gestire le operazioni amministrative, il tracciamento delle modifiche, e le informazioni spaziali. Se desideri ulteriori dettagli su qualche specifica o campo, fammi sapere!
