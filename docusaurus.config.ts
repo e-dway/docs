@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'e-dway',
+  title: 'e-dway documentation',
   tagline: '',
   favicon: 'img/favicon.png',
 
@@ -96,6 +96,12 @@ const config: Config = {
           sidebarId: 'boSidebar',
           position: 'left',
           label: 'Backoffice',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'mobileSidebar',
+          position: 'left',
+          label: 'Mobile',
         },
         {to: '/blog', label: 'Blog', position: 'right'}
       ],
