@@ -14,11 +14,13 @@ sidebar_position: 2
 
 ### Chiavi per il Contesto dell'Utente
 
-- **`checkLogin: "E-DWay:login"`**: Potrebbe rappresentare una chiave per un meccanismo di **verifica dell'accesso** (login). Probabilmente viene utilizzata per controllare se un utente è loggato o meno.
+- **`checkLogin: "E-DWay:login"`**:Chiave per meccanismo di **verifica dell'accesso** (login). Utilizzata per controllare se un utente è loggato o meno.
 
-- **`user: "E-DWay:user"`**: Memorizza i dati relativi all'utente. È probabile che questa chiave venga usata per conservare le informazioni dell'utente nel **local storage** o sessione.
+- **`anguage: "E-DWay:language""`**: Chiave per memorizzare **lingua** selezionata dall'utente.
 
-- **`token: "E-DWay:token"`**: Questa chiave rappresenta il **token di autenticazione** utilizzato dall'utente per autenticarsi presso il back-end. Solitamente, viene memorizzato in `localStorage` o `sessionStorage`.
+- **`user: "E-DWay:user"`**: Memorizza i dati relativi all'utente.
+
+- **`token: "E-DWay:token"`**: Questa chiave rappresenta il **token di autenticazione** utilizzato dall'utente per autenticarsi presso il back-end.
 
 - **`client_id: "E-DWay:client_id"`**: Identificativo univoco del client utilizzato per interazioni API o per la gestione dell'utente.
 
@@ -30,11 +32,11 @@ sidebar_position: 2
 
 - **`api: "https://api.hoponmobility.com/"`**: Questo è l'endpoint principale dell'API del back-end con cui l'applicazione comunica per recuperare e inviare dati. Viene utilizzato per tutte le operazioni di **API REST** relative a `E-DWay`.
 
-- **`apiQr: "https://api.qrserver.com/"`**: L'URL di un servizio di **generazione di codici QR**. L'applicazione potrebbe utilizzarlo per generare o decodificare codici QR.
+- **`apiQr: "https://api.qrserver.com/"`**: L'URL di un servizio di **generazione di codici QR**.
 
 ### Chiavi per Servizi Esterni
 
-- **`mapboxKey: "pk.eyJ1Ijoic2lybW1vIiwiYSI6ImNsM3R2djh5ajBjdTgzam52NDBvZzVhcXEifQ.wSyHLLyQ7X5SmSXHLw5clA"`**: Una chiave API per **Mapbox**, utilizzata per visualizzare mappe all'interno dell'applicazione. Questo tipo di chiave è necessario per integrare i servizi di mappe forniti da **Mapbox**, ad esempio per mostrare la posizione di veicoli o utenti.
+- **`mapboxKey: "pk.eyJ1Ijoic2lybW1vIiwiYSI6ImNsM3R2djh5ajBjdTgzam52NDBvZzVhcXEifQ.wSyHLLyQ7X5SmSXHLw5clA"`**: Chiave API per **Mapbox**, utilizzata per visualizzare mappe all'interno dell'applicazione. Questo tipo di chiave è necessario per integrare i servizi di mappe forniti da **Mapbox**
 
 ---
 
@@ -60,12 +62,3 @@ In Angular, il file `environment.ts` viene sostituito con `environment.prod.ts` 
 
 ---
 
-## Note
-
-- **Gestione sicura delle chiavi**: Assicurati di proteggere chiavi sensibili, come quella di **Mapbox**, specialmente nelle distribuzioni di produzione. Potresti voler utilizzare variabili d'ambiente o altri sistemi sicuri per gestire queste informazioni.
-  
-- **Separazione degli ambienti**: Durante la fase di produzione, le configurazioni, come l'URL delle API o le chiavi di accesso, potrebbero differire. Assicurati di gestire correttamente i file di configurazione per gli ambienti di **sviluppo** e **produzione**.
-
-- **Versionamento**: Le proprietà `version` e `release` sono utili per tenere traccia delle versioni dell'app e delle date di rilascio. Assicurati di aggiornarle regolarmente durante i cicli di sviluppo e distribuzione.
-
-Questo file è essenziale per centralizzare e semplificare la gestione delle configurazioni in un'applicazione Angular, mantenendo separate le informazioni sensibili e i parametri di configurazione specifici per ogni ambiente.

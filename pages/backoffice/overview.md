@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Struttura progetto Angular ng18
+# Struttura ng18
 
 La struttura è composto dalle seguenti directory e file:
 

@@ -153,7 +153,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Edway, Inc. v.0.0.1.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Edway, Inc. v.0.0.0.2`,
     },
     prism: {
       theme: prismThemes.github,
