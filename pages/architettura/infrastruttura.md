@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Overview
 
-Tutti i servizi presenti all'interno dell'enviroment edway sono contenuti in contenitori docker che vengono ospitati e gestite ed orchestrati da DockerSwarm.  
+Tutti i servizi e i software presenti all'interno dell'enviroment edway sono installati in contenitori docker che vengono ospitati, gestiti ed orchestrati da DockerSwarm.  
 Tali cluster vengono monitorati attraverso il software Swarmpit
 
 ## Tecnologia
@@ -86,52 +86,6 @@ Tali cluster vengono monitorati attraverso il software Swarmpit
 
 ---
 
-### **Come Installare Swarmpit**
-
-#### **Prerequisiti**
-- Docker e Swarm devono essere configurati sul tuo server.
-- Un cluster Docker Swarm inizializzato.
-
-#### **Installazione**
-
-##### **Installazione Standard**
-1. Esegui il comando seguente sul nodo manager del tuo cluster:
-   ```bash
-   docker run -it --rm \
-       --name swarmpit-installer \
-       --volume /var/run/docker.sock:/var/run/docker.sock \
-       swarmpit/install:latest
-   ```
-2. Questo comando installerà Swarmpit e configurerà automaticamente i servizi richiesti.
-
-##### **Stack Docker Compose**
-Puoi anche installare Swarmpit usando uno stack Docker Compose.
-
-1. Crea un file `docker-compose.yml`:
-   ```yaml
-   version: '3.3'
-   services:
-     swarmpit:
-       image: swarmpit/swarmpit:latest
-       ports:
-         - "888:8080"
-       volumes:
-         - /var/run/docker.sock:/var/run/docker.sock
-   ```
-
-2. Esegui il comando per avviare lo stack:
-   ```bash
-   docker stack deploy -c docker-compose.yml swarmpit
-   ```
-
----
-
-### **Accesso a Swarmpit**
-Dopo l'installazione:
-- Apri un browser e naviga su `http://<IP-DEL-NODO>:888`.
-- Accedi all'interfaccia di gestione.
-
----
 
 ### **Utilizzo di Swarmpit**
 

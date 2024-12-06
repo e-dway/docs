@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ## Overview
 
-L'infrastruttura ha a disposizione un object storage basato sull'opensurce Minio
+L'infrastruttura ha a disposizione un object storage basato sull'opensource Minio
 
 ## Tecnologia
 

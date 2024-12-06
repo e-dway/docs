@@ -33,6 +33,10 @@ export default function Home(): JSX.Element {
         <section className={styles.features}>
           <div className="container">
             <div className="row">
+            <div className="col col--3">
+                <h2>Architettura</h2>
+                <p>Descrizione componenti che compongono enviroment e-dway.</p>
+              </div>
               <div className="col col--3">
                 <h2>Documentazione API</h2>
                 <p>Consulta le guide sugli endpoint, i metodi HTTP e le risposte strutturate.</p>
@@ -45,10 +49,7 @@ export default function Home(): JSX.Element {
                 <h2>Backoffice</h2>
                 <p>Descrizione webapp per la gestione del backoffuce.</p>
               </div>
-              <div className="col col--3">
-                <h2>App Mobile</h2>
-                <p>Integra e sviluppa con la nostra applicazione mobile.</p>
-              </div>
+              
             </div>
           </div>
         </section>
