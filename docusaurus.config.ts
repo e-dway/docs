@@ -81,6 +81,12 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'schemaSidebar',
+          position: 'left',
+          label: 'Architettura',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'apiSidebar',
           position: 'left',
           label: 'Api',
@@ -96,12 +102,6 @@ const config: Config = {
           sidebarId: 'boSidebar',
           position: 'left',
           label: 'Backoffice',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'mobileSidebar',
-          position: 'left',
-          label: 'Mobile',
         },
         {to: '/blog', label: 'Blog', position: 'right'}
       ],
