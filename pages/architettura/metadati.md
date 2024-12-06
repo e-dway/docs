@@ -6,5 +6,5 @@ sidebar_position: 15
 
 ## Overview
 
-Servizio per poter raccogliere i metadati associati ai veicooli come ad esempio la targa , telaio , assicurazione ecc.
+Servizio per poter raccogliere i metadati associati ai veicoli come ad esempio la targa , telaio , assicurazione ecc.
 
