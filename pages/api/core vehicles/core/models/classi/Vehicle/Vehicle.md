@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+---
+
+
 La classe `Vehicle` rappresenta un modello Django per la gestione di veicoli specifici, incluse informazioni tecniche, di proprietà e operative. Inoltre, utilizza hook per interagire con una cache esterna (probabilmente Redis). Di seguito una descrizione dettagliata dei campi e delle funzionalità:
 
 ---

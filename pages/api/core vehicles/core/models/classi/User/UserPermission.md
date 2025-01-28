@@ -1,3 +1,8 @@
+---
+sidebar_position: 11
+---
+
+
 ### UserPermission
 La classe `UserPermission` rappresenta un modello Django per gestire le autorizzazioni assegnate agli utenti. Ogni record associa un utente a un determinato permesso, fornendo un sistema semplice per gestire i diritti e le funzionalità disponibili.
 

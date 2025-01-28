@@ -1,3 +1,9 @@
+---
+sidebar_position: 5
+---
+
+
+
 ### VehicleIssue
 La classe `VehicleIssue` rappresenta un modello Django utilizzato per registrare e gestire i problemi segnalati relativi ai veicoli. Ogni problema può essere segnalato automaticamente o manualmente, associato a un utente e, opzionalmente, a un veicolo specifico.
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 ### FleetVehicle
 La classe `FleetVehicle` rappresenta un modello Django per definire la relazione tra una flotta e i veicoli che ne fanno parte. Gestisce informazioni come l'appartenenza del veicolo alla flotta e la sua priorità (ad esempio, se è il veicolo principale).
 

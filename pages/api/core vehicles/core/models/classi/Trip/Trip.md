@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 ### Trip
 La classe `Trip` rappresenta un modello Django per gestire i viaggi effettuati dagli utenti con i veicoli. Include dettagli come utente, veicolo, durata, percorso, e stato. La classe utilizza hook per aggiornare lo stato e sincronizzare i dati con una cache esterna.
 

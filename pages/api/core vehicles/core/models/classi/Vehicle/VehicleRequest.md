@@ -1,3 +1,9 @@
+---
+sidebar_position: 9
+---
+
+
+
 ### VehicleRequest
 La classe `VehicleRequest` rappresenta un modello Django per tracciare richieste o interazioni con veicoli, inclusi dettagli geografici dell'utente e del veicolo, nonché il calcolo della distanza tra loro.
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 ### UserData
 La classe `UserData` rappresenta un modello Django utilizzato per gestire le coordinate geografiche associate a un utente specifico. Questo modello è utile per applicazioni che richiedono la tracciabilità della posizione dell'utente, come servizi di geolocalizzazione o applicazioni di mobilità.
 

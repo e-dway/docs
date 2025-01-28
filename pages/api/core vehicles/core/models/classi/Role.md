@@ -1,3 +1,8 @@
+---
+sidebar_position: 13
+---
+
+
 ### Role
 La classe `Role` rappresenta un modello Django utilizzato per definire ruoli specifici in un sistema. Ogni ruolo ha un identificativo unico (`key`), un'etichetta leggibile (`label`), un peso per determinare l'ordine di importanza, e un'indicazione se è un ruolo predefinito.
 

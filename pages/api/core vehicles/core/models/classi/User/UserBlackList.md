@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 ### UserBlackList
 La classe `UserBlackList` rappresenta un modello Django per gestire una lista nera degli utenti. È progettata per tracciare utenti, numeri di telefono, indirizzi IP e carte bloccati, con una motivazione specifica e la possibilità di automatizzare l'aggiornamento degli attributi relativi al blocco.
 

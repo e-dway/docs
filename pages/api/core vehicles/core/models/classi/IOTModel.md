@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 La classe `IOTModel` rappresenta un modello Django che descrive dispositivi IoT (Internet of Things). Questa classe è probabilmente utilizzata per gestire i modelli di dispositivi IoT associati a un sistema, come tracker GPS o controller veicolari. Ecco un'analisi dettagliata:

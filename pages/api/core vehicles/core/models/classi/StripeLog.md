@@ -1,3 +1,8 @@
+---
+sidebar_position: 16
+---
+
+
 ### StripeLog
 La classe `StripeLog` rappresenta un modello Django utilizzato per registrare i log delle transazioni o eventi di Stripe. È utile per monitorare, analizzare e diagnosticare le interazioni con l'API di Stripe.
 

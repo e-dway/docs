@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 ### UserAtt
 La classe `UserAtt` rappresenta un modello Django per gestire attributi personalizzati associati a un utente in un determinato contesto di proprietà (`owner`). Questo modello consente di archiviare dati chiave-valore sia in formato JSON che come stringa semplice, supportando un'ampia gamma di casi d'uso.
 

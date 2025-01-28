@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+---
+
+
 ### VehicleCode
 La classe `VehicleCode` gestisce i codici associati ai veicoli, che possono essere utilizzati per identificazioni, operazioni specifiche o contesti particolari (es. QR code).
 

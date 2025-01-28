@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 La classe `VehicleBrand` è simile a `VehicleType` e rappresenta un modello Django per gestire i marchi di veicoli. Questa classe è probabilmente usata per tenere traccia delle marche di veicoli in un sistema. Ecco un'analisi dettagliata:

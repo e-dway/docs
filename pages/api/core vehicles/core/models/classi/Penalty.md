@@ -1,3 +1,8 @@
+---
+sidebar_position: 7
+---
+
+
 ### Penalty
 La classe `Penalty` rappresenta un modello Django utilizzato per definire penalità associate a un'entità specifica (`ownership`). Ogni penalità include un identificativo unico, un nome, e una descrizione dettagliata.
 

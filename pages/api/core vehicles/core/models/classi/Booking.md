@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+---
+
+
+
 ### Booking
 La classe `Booking` rappresenta un modello Django per gestire prenotazioni effettuate dagli utenti per specifici veicoli. Include dettagli come utente, veicolo, durata della prenotazione e stato attuale. Utilizza hook per aggiornare automaticamente lo stato nella cache.
 

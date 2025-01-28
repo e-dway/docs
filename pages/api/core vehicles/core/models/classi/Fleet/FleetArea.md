@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 ### FleetArea
 La classe `FleetArea` rappresenta un modello Django per definire le aree geografiche associate a una flotta. Ogni area può avere specifiche configurazioni e può essere rappresentata sia con dati JSON che con geometrie GIS.
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
 
 La classe `Ownerships` è un modello Django che rappresenta un'entità legata probabilmente alla proprietà o gestione di risorse (ad esempio, flotte o utenti) in un sistema. Questo modello include funzionalità per il ciclo di vita degli oggetti e per eseguire azioni specifiche dopo la creazione di un record. Ecco un'analisi dettagliata:

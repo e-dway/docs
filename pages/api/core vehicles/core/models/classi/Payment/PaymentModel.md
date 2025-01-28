@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 ### PaymentModel
 La classe `PaymentModel` rappresenta un modello Django per definire i piani tariffari o modelli di pagamento utilizzati in un sistema. Ogni modello di pagamento è configurato con tariffe specifiche, condizioni e associazioni a flotte o tipi di veicoli.
 

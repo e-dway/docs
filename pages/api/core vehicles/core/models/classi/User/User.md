@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 ### User
 La classe `User` rappresenta un modello Django per gestire le informazioni principali di un utente in un sistema. Include dettagli personali, contatti, dati organizzativi e metadati utili per la gestione delle registrazioni e degli aggiornamenti.
 

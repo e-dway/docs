@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 ### UserFleet
 La classe `UserFleet` rappresenta un modello Django per gestire la relazione tra un utente e una flotta, come richieste di accesso o associazioni temporanee. Include dettagli sullo stato della richiesta, la durata dell'associazione e l'accettazione.
 

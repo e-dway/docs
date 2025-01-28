@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 17
 ---
 
 La classe `TelegramGroup` rappresenta un modello Django utilizzato per gestire gruppi Telegram associati a un'applicazione. Probabilmente è parte di un sistema che utilizza questi gruppi per notifiche, gestione di eventi, o altre funzionalità legate alla comunicazione. Ecco un'analisi dettagliata:

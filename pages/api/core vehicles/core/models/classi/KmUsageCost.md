@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+---
+
+
 ### KmUsageCost
 La classe `KmUsageCost` rappresenta un modello Django per definire i costi di utilizzo basati sulla distanza percorsa (per chilometro). È collegata al modello `UsageCost` e specifica tariffe per chilometro a partire da un determinato punto.
 

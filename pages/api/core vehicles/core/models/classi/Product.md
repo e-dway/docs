@@ -1,3 +1,8 @@
+---
+sidebar_position: 9
+---
+
+
 ### Product
 La classe `Product` rappresenta un modello Django per gestire prodotti associati a flotte o veicoli. Ogni prodotto può avere caratteristiche specifiche, prezzi personalizzati, categorie, e condizioni di utilizzo. È progettata per supportare la gestione dei prodotti in un sistema flessibile e scalabile.
 

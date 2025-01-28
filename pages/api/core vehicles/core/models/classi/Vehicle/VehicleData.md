@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+---
+
+
 ### VehicleData
 La classe `VehicleData` rappresenta un modello Django utilizzato per memorizzare dati in tempo reale relativi a un veicolo, come posizione geografica, livello della batteria e altre informazioni aggiuntive.
 

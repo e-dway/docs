@@ -1,3 +1,8 @@
+---
+sidebar_position: 10
+---
+
+
 ### ProductDescription
 La classe `ProductDescription` rappresenta un modello Django per gestire descrizioni multilingue associate a un prodotto. Ogni descrizione è collegata a un prodotto specifico e scritta in una determinata lingua.
 

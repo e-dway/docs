@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 ### TripValue
 La classe `TripValue` rappresenta un modello Django per memorizzare valori specifici (ad esempio, costi o metriche) associati a un viaggio. Ogni valore è univocamente collegato a un viaggio e include una descrizione, l'importo, e la data di registrazione.
 

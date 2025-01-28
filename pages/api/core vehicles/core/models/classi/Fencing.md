@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+---
+
+
 ### Fencing
 La classe `Fencing` rappresenta un modello Django utilizzato per gestire il concetto di "geofencing", che collega un veicolo a una specifica area geografica. È progettata per monitorare e controllare la posizione dei veicoli in relazione a determinate aree.
 

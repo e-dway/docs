@@ -1,3 +1,8 @@
+---
+sidebar_position: 15
+---
+
+
 ### Strings
 La classe `Strings` rappresenta un modello Django per gestire traduzioni multilingue di stringhe. Ogni stringa è associata a un proprietario (opzionale), un codice univoco, una lingua, e una traduzione. Utilizza un hook per aggiornare la cache delle stringhe dopo ogni salvataggio.
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+---
+
 ### UserPaymentGroup
 La classe `UserPaymentGroup` rappresenta un modello Django utilizzato per associare un utente a un gruppo di pagamento (`PaymentGroup`). Questo modello consente di gestire le assegnazioni tra utenti e i loro benefici economici o sconti specifici.
 

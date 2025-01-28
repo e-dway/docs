@@ -1,3 +1,8 @@
+---
+sidebar_position: 11
+---
+
+
 ### Regulations
 La classe `Regulations` rappresenta un modello Django che definisce normative specifiche, come limiti di velocità o restrizioni geografiche, per un'area. Potrebbe essere utilizzata per regolare il comportamento di veicoli o flotte all'interno di un sistema.
 

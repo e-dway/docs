@@ -1,3 +1,8 @@
+---
+sidebar_position: 18
+---
+
+
 ### UsageCost
 La classe `UsageCost` rappresenta un modello Django per gestire i costi associati all'utilizzo di veicoli in un sistema. Include tariffe per sblocco, prenotazione, limiti massimi di costo, e opzioni di pre-autorizzazione.
 

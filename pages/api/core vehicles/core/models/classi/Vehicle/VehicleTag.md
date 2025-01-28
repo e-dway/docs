@@ -1,3 +1,8 @@
+---
+sidebar_position: 10
+---
+
+
 ### 
 Rappresenta tag associati ai veicoli, utilizzati per categorizzazione o identificazione.  
 **Campi:**

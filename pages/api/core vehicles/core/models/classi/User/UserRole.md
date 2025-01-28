@@ -1,3 +1,8 @@
+---
+sidebar_position: 12
+---
+
+
 ### UserRole
 La classe `UserRole` rappresenta un modello Django per associare un utente a un ruolo specifico in un determinato contesto di proprietà (`ownership`). Fornisce un sistema per gestire i ruoli degli utenti e abilitare o disabilitare tali associazioni.
 

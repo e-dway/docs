@@ -1,3 +1,8 @@
+---
+sidebar_position: 14
+---
+
+
 ### Settings
 La classe `Settings` rappresenta un modello Django per gestire le impostazioni associate a un proprietario specifico (ad esempio, un'organizzazione o un'entità). Ogni impostazione è definita da una chiave e un valore, con opzioni di visibilità e autorizzazione.
 

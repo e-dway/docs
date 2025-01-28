@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 ### TripEvent
 La classe `TripEvent` rappresenta un modello Django per registrare eventi specifici che si verificano durante un viaggio. Ogni evento è collegato a un viaggio (`Trip`) e include informazioni come il tipo di evento, un timestamp e una descrizione opzionale.
 

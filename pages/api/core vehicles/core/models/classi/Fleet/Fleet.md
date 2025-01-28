@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 ### Fleet
 La classe `Fleet` rappresenta un modello Django per gestire una flotta di veicoli. Include informazioni come il proprietario, configurazioni specifiche, modalità di pagamento e gerarchie tra flotte.
 

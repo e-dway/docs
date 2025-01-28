@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 La classe `VehicleModel` rappresenta un modello Django che gestisce i dettagli di un modello specifico di veicolo, compresa la sua configurazione tecnica, la marca, il tipo e le capacità. Questa classe è integrata con altri modelli (come `VehicleType`, `VehicleBrand` e `IOTModel`) per strutturare le relazioni tra le entità. Ecco una descrizione dettagliata:

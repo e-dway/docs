@@ -1,3 +1,8 @@
+---
+sidebar_position: 19
+---
+
+
 ### WalletProduct
 La classe `WalletProduct` rappresenta un modello Django per gestire prodotti legati ai portafogli digitali. Questi prodotti possono includere un valore base, bonus associati e opzioni di rinnovo automatico, consentendo di gestire crediti virtuali, abbonamenti o offerte promozionali.
 

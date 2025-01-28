@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 ### FleetSettings
 La classe `FleetSettings` rappresenta un modello Django per gestire impostazioni specifiche associate a una flotta. Ogni impostazione è definita da una chiave e un valore, consentendo configurazioni personalizzate per una determinata flotta.
 

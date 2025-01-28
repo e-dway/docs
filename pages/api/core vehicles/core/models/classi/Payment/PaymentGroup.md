@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 ### PaymentGroup
 La classe `PaymentGroup` rappresenta un modello Django utilizzato per definire gruppi di pagamento con sconti o rimborsi specifici applicabili a diverse attività, come lo sblocco, la prenotazione e l'uso di un servizio.
 

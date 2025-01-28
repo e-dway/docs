@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 ### UserPackage
 La classe `UserPackage` rappresenta un modello Django utilizzato per gestire pacchetti o abbonamenti acquistati da un utente. Ogni pacchetto è associato a un prodotto (`Product`) e include dettagli come stato di attivazione, tempo rimanente, sblocchi disponibili e rinnovo automatico.
 

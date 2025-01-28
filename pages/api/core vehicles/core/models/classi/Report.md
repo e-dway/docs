@@ -1,3 +1,8 @@
+---
+sidebar_position: 12
+---
+
+
 ### Report
 La classe `Report` rappresenta un modello Django utilizzato per gestire la configurazione e la pianificazione di report automatizzati. Include dettagli sul tipo di report, i parametri utilizzati, una pianificazione in formato cron e l'obiettivo (target) del report.
 

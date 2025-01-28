@@ -1,3 +1,8 @@
+---
+sidebar_position: 5
+---
+
+
 ### MinuteUsageCost
 La classe `MinuteUsageCost` rappresenta un modello Django per definire i costi di utilizzo basati sul tempo (per minuto). È collegata al modello `UsageCost` e specifica tariffe per utilizzo attivo e pause, con unità di misura configurabili.
 

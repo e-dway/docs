@@ -1,3 +1,8 @@
+---
+sidebar_position: 8
+---
+
+
 ### PlatformAttachment
 La classe `PlatformAttachment` rappresenta un modello Django utilizzato per gestire file o allegati associati a un'entità (`owner`) su una piattaforma. Ogni allegato include dettagli come il tipo, il nome, l'utente che lo ha caricato, l'URL per accedervi e timestamp per la creazione e l'eliminazione.
 

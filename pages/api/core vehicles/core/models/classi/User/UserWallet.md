@@ -1,3 +1,7 @@
+---
+sidebar_position: 13
+---
+
 ### UserWallet
 La classe `UserWallet` rappresenta un modello Django utilizzato per gestire i portafogli digitali degli utenti. Include dettagli come il saldo del portafoglio, bonus accumulati, ultimo acquisto effettuato e opzioni di rinnovo automatico.
 

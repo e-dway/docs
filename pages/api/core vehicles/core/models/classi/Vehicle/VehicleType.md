@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 11
 ---
 La classe `VehicleType` rappresenta un modello Django semplice, che probabilmente viene utilizzato per categorizzare diversi tipi di veicoli in un sistema. Ecco un'analisi dettagliata:
 

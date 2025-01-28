@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 ### TripPicture
 La classe `TripPicture` rappresenta un modello Django per memorizzare immagini associate a un viaggio. Ogni immagine può essere collegata a un veicolo, un utente, e un viaggio specifico.
 

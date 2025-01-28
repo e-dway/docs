@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 ### FleetAreaSetting
 La classe `FleetAreaSetting` rappresenta un modello Django per gestire impostazioni specifiche associate a una determinata area geografica di una flotta. Ogni impostazione è identificata da una chiave e un valore, consentendo configurazioni dettagliate per ogni area.
 

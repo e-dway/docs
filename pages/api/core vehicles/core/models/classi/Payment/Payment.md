@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 ### Payment
 La classe `Payment` rappresenta un modello Django per gestire i pagamenti effettuati dagli utenti. Include dettagli sull'importo, tipo di pagamento, associazione a viaggi o prodotti, nonché informazioni su integrazioni con sistemi di pagamento esterni come Stripe.
 

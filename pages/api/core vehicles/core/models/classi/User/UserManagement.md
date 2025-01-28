@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 ### UserManagement
 La classe `UserManagement` rappresenta un modello Django utilizzato per gestire e tracciare le associazioni tra utenti, entità proprietarie (`ownership`), flotte e veicoli. Fornisce un sistema per monitorare le relazioni gerarchiche o operative tra questi elementi.
 

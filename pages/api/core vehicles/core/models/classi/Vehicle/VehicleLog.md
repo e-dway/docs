@@ -1,3 +1,8 @@
+---
+sidebar_position: 6
+---
+
+
 ### VehicleLog
 Registra eventi o azioni relative ai veicoli, come manutenzione o spostamenti.  
 **Campi:**
