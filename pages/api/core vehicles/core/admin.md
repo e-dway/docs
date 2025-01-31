@@ -1,6 +1,5 @@
 # admin.py
 
-Il file caricato è uno script Python che configura un pannello di amministrazione per un progetto Django, probabilmente parte di un'applicazione per la gestione di veicoli o flotte. Ecco una descrizione dettagliata del contenuto:
 
 1. **Importazioni principali**:
    - Importa il modulo `admin` da `django.contrib`, necessario per registrare i modelli nel pannello di amministrazione.
